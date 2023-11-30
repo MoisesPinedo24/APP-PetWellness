@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    tools:context=".firstapp.ResultActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="vertical"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="-350dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:text="Acerca sobre PetWellness"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="1.7in"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:fontFamily="@font/amiko"
+                android:text="Somos Jesús Moisés Areola Pinedo (Moy) y Daniel López Mendoza Petwellness surgió dado a que ambos somos dueños de mascotas y durante una charla casual sucedió que en esta uno de los dos menciono que se le paso la visita al veterinario dado que se perdió la cartilla de vacunación. Uno recomendó anotar sus próximas citas en la agenda de Google, pero dado a que en esta actualmente recibimos notificaciones de próximas tareas, entregas u clases dado que se mezcla con Google Meet.
+"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="1.7in"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="160dp"
+                android:fontFamily="@font/amiko"
+                android:text="Debido a esto a uno de los dos busco algunas alternativas en Playstore, pero las que encontraron si querías realizar cierta acción tenías que pagar una membrecía fue así como surgió la ide de Petwellness el realizar una agenda dedicada solo para mascotas la cual se tiene pensado en ir actualizado la aplicación e ir innovando para que la aplicación pueda a llegar ser más utiliza y práctica."
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+

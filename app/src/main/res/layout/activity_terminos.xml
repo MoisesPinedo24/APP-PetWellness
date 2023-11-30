@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    tools:context=".firstapp.ResultActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="50dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terminos y Condiciones"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+
+                android:layout_marginBottom="20dp"/>
+
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="1.7in"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/amiko"
+                android:layout_gravity="center"
+                android:text="Los Términos y Condiciones, también denominados como Condiciones Generales de Uso, son un documento diseñado para aquellas personas que van a crear o administrar una página o sitio web, en el cual se establecen las condiciones bajo las cuales los usuarios ingresarán y harán uso del sitio web."
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="1.7in"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="160dp"
+                android:fontFamily="@font/amiko"
+                android:text="El documento se encuentra diseñado para sitios que sean operados o manejados por personas o empresas que tengan su domicilio en la República Mexicana o que estén destinados a personas que habitan en este país, no obstante, su contenido hace referencia a disposiciones civiles comunes en la mayoría de los países del mundo."
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="1.7in"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="160dp"
+                android:fontFamily="@font/amiko"
+                android:text="Este documento es utilizado para regular las condiciones y reglas a las que se someten tanto los usuarios de un sitio web como su propietario y/o administrador, en lo referente al acceso y utilización del sitio web. De igual manera, hace referencia a las políticas de privacidad, protección de datos personales, enlaces, etc., que se tomarán para proteger la privacidad de los usuarios."
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+
+                android:textColor="@color/black"
+                android:layout_width="1.7in"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="160dp"
+                android:fontFamily="@font/amiko"
+                android:text="Dichas reglas y principios aportan un mayor nivel de confianza y seguridad jurídica a los usuarios del sitio web así como a sus propietarios y/o administradores, puesto que también se establece el tipo de personas a las que va dirigido y las responsabilidades que estos adquieren al hacer uso del sitio o de los servicios que en él son ofrecidos.
+"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="1.7in"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="160dp"
+                android:fontFamily="@font/amiko"
+                android:text="Existe además otro documento conocido generalmente como Condiciones Generales de Venta que se utiliza para regular la adquisición de productos o servicios a través de internet, no obstante, este último no debe ser confundido con el presente documento, puesto que el presente solo se limita a regular el acceso, funcionamiento e interacción del usuario con el sitio web, sin que se incluya las condiciones bajo las cuales se formalizará la adquisición de productos o servicios que tengan un costo o que requieran una licencia; y que se puedan obtener o adquirir a través del mismo sitio web."
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

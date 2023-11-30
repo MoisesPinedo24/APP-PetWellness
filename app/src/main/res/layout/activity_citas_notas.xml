@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    tools:context=".firstapp.Citas_notas_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"> 
+        
+        <TextView
+            android:id="@+id/Uid_Usuario"
+            android:hint="@string/Uid_Usuario"
+            android:textSize="18sp"
+            android:fontFamily="@font/amiko"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/Correo_usuario"
+            android:hint="@string/Correo_usuario"
+            android:textSize="18sp"
+            android:fontFamily="@font/amiko"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/Fecha_hora_actual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amiko"
+            android:hint="@string/Fecha_hora_actual"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/Titulo"
+            android:hint="@string/Titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/amiko"/>
+        <EditText
+            android:id="@+id/Descripcion"
+            android:hint="@string/Descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="150dp"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="start"/>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                app:icon="@drawable/calendario"
+                android:id="@+id/Btn_Calendario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/rosa"
+                android:textStyle="bold"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:textSize="15dp"
+                android:text="@string/Btn_Calendario" />
+
+            <TextView
+                android:id="@+id/Fecha"
+                android:text="@string/Fecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginStart="15dp"
+                android:fontFamily="@font/amiko"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <TextView
+                android:id="@+id/Estado"
+                android:hint="@string/Estado"
+                android:textSize="20sp"
+                android:fontFamily="@font/amiko"
+                android:layout_marginTop="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

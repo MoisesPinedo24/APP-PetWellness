@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    tools:context=".firstapp.ResultActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Hola Moises!!"
+                android:textColor="@color/white"
+
+                android:textStyle="bold"
+                android:textSize="33dp"
+                android:layout_margin="40dp"/>
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="0.7in"
+                android:layout_height="0.7in"
+                android:layout_margin="30dp"
+                android:background="@color/white"
+                android:elevation="3dp"
+                app:srcCompat="@drawable/retrato"
+                android:scaleType="centerCrop"
+                app:shapeAppearanceOverlay="@style/imagenRedonda"
+                android:layout_marginVertical = "20dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Btcitas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@color/rosa"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="20dp"
+                    android:elevation="3dp"
+                    android:src="@drawable/citas2jaja" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="1.1in"
+                    android:text="Citas"
+                    android:textColor="@color/white"
+                    android:textSize="33sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/rosa">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="20dp"
+
+                    android:elevation="3dp"
+                    android:src="@drawable/aguaa"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:text="Agua para tu masta"
+                    android:textSize="23sp"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/rosa">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="20dp"
+                    android:elevation="3dp"
+                    android:src="@drawable/hospital"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:text="Veterinarias Cerca de ti"
+                    android:textSize="23sp"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/TermCon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/rosa">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="20dp"
+                    android:elevation="3dp"
+                    android:src="@drawable/terminos"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="1.1in"
+                    android:text="Terminos y condiciones"
+                    android:textSize="23sp"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Nosotros"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@color/rosa"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp"
+                android:layout_marginBottom="120dp" >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="20dp"
+                    android:elevation="3dp"
+                    android:src="@drawable/texmm" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="1.1in"
+                    android:text="Acerca sobre PetWellness"
+                    android:textColor="@color/white"
+                    android:textSize="23sp"
+                    android:textStyle="bold"/>
+ "/>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+

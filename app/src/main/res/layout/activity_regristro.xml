@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    tools:context=".firstapp.RegristroActivity">
+
+
+    <Button
+        android:id="@+id/Reg"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/boton_redondo_amarillo"
+        android:text="Crear Cuenta"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ContraReg"
+        app:layout_constraintVertical_bias="0.158" />
+
+    <EditText
+        android:id="@+id/emailReg"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:background="@drawable/boton_redondo"
+        android:ems="20"
+        android:hint="Correo"
+        android:inputType="text"
+        android:paddingStart="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/ContraReg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.835" />
+
+    <EditText
+        android:id="@+id/ContraReg"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="@drawable/boton_redondo"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:paddingStart="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/emailReg"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/emailReg"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.403"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="260dp"
+        android:layout_height="35dp"
+        android:text="Al continuar, aceptas los Términos y condiciones de uso. Consulta nuestra Política de privacidad."
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/Reg"
+        app:layout_constraintStart_toStartOf="@+id/Reg"
+        app:layout_constraintTop_toBottomOf="@+id/Reg"
+        app:layout_constraintVertical_bias="0.705" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Crear una cuenta"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/emailReg"
+        app:layout_constraintEnd_toEndOf="@+id/emailReg"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="@+id/emailReg"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

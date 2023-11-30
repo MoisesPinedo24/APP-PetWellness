@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">PtWellness</string>
+    <string name="title_activity_button">BUTTON</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="no_data">No data</string>
+    <string name="Inicia_sesion">Inicia sesion</string>
+    <string name="cierra_sesion">Cierra sesion</string>
+    <string name="registrate">Registrate</string>
+    <string name="registro">Registro</string>
+
+    <string name="no_tienes_cuenta">¿Notienes cuenta?</string>
+    <string name="ya_tienes_cuenta">¿Yatienenes cuenta?</string>
+    <string name="email">Email</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="crea_una_cuenta">¿Creauna cuenta</string>
+    <!--NOTAS-->
+    <string name="Uid_Usuario">Uid del usuario</string>
+    <string name="Correo_usuario">Correo de usuario</string>
+    <string name="Fecha_hora_actual">Fecha y hora actual</string>
+    <string name="Titulo">Titulo</string>
+    <string name="Descripcion">Descripcion</string>
+    <string name="Btn_Calendario">Calendario</string>
+    <string name="Fecha">00/00/0000</string>
+    <string name="Estado">No finalizado</string>
+
+</resources>

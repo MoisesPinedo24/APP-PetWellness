@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "913320084863",
+    "project_id": "petwellness-2784d",
+    "storage_bucket": "petwellness-2784d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913320084863:android:e39ad6e13004f9f895464a",
+        "android_client_info": {
+          "package_name": "com.aristidevs.andriodmaster"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVLmBaoL7h0zo081OvJFvkLjPx1E2fuxo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
